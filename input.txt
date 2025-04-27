@@ -1,0 +1,5 @@
+Learning Python is fun!
+This is a great way to start coding.
+Practice makes perfect.
+Functions and loops are powerful.
+Keep building projects!
