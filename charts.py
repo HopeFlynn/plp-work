@@ -33,3 +33,13 @@ plt.grid(True)
 
 plt.tight_layout()
 plt.show()
+
+
+# === 2. Pie Chart – Student's Daily Schedule ===
+activities = ['Sleep', 'Study', 'Classes', 'Leisure', 'Meals', 'Chores']
+hours = [8, 4, 5, 3, 2, 2]
+
+plt.subplot(1, 3, 2)
+plt.pie(hours, labels=activities, autopct='%1.1f%%', startangle=90)
+plt.title("Student's 24hr Time Use")
+plt.axis('equal')
